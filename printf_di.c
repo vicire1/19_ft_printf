@@ -6,11 +6,9 @@
 /*   By: vdecleir <vdecleir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 17:15:29 by vdecleir          #+#    #+#             */
-/*   Updated: 2023/10/30 17:59:49 by vdecleir         ###   ########.fr       */
+/*   Updated: 2023/10/30 18:16:55 by vdecleir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "ft_printf.h"
 
 #include "ft_printf.h"
 
