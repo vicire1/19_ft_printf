@@ -6,7 +6,7 @@
 /*   By: vdecleir <vdecleir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/26 17:32:54 by vdecleir          #+#    #+#             */
-/*   Updated: 2023/10/26 17:35:20 by vdecleir         ###   ########.fr       */
+/*   Updated: 2023/10/30 17:55:13 by vdecleir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	printf_putstr(char *str)
 
 	i = 0;
 	if (!str)
-		return (0);
+		str	= "(null)";
 	while (str[i])
 	{
 		write(1, &str[i], 1);
