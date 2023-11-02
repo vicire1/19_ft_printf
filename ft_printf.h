@@ -6,12 +6,12 @@
 /*   By: vdecleir <vdecleir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/25 16:55:35 by vdecleir          #+#    #+#             */
-/*   Updated: 2023/10/30 17:50:56 by vdecleir         ###   ########.fr       */
+/*   Updated: 2023/11/02 14:46:57 by vdecleir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PRINTF_H
-# define PRINTF_H
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 
 # include <unistd.h>
 # include <stdlib.h>

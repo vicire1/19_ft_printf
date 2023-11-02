@@ -6,7 +6,7 @@
 /*   By: vdecleir <vdecleir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/26 12:44:37 by vdecleir          #+#    #+#             */
-/*   Updated: 2023/10/30 18:13:04 by vdecleir         ###   ########.fr       */
+/*   Updated: 2023/11/02 14:38:03 by vdecleir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,8 +67,8 @@ int	ft_printf(const char *format, ...)
 int	main()
 {
 	char *poc = "hey";
-	int i = ft_printf("Salut j'ai % %% a mon %s soit %x ou %X en hexa %p\n", "test", -125, 125, poc);
-	//int	j = printf("Salut j'ai % %% a mon %s soit %x ou %X en hexa %p\n", "test", -125, 125, poc);
+	int i = ft_printf("Salut j'ai %i %% a mon %s soit %x ou %X en hexa %p\n", 14, "test", -125, 125, poc);
+	//int	j = printf("Salut j'ai %i %% a mon %s soit %x ou %X en hexa %p\n", 14, "test", -125, 125, poc);
 	ft_printf("%i\n", i);
 	//printf("%i\n", j);
 }
