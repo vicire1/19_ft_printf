@@ -6,16 +6,16 @@
 /*   By: vdecleir <vdecleir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 15:05:58 by vdecleir          #+#    #+#             */
-/*   Updated: 2023/11/02 13:47:08 by vdecleir         ###   ########.fr       */
+/*   Updated: 2023/11/06 08:26:03 by vdecleir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int  ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int  i;
+	int	i;
 
-    i = 0;
-    while (str[i])
-        i++;
-    return (i);
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }
