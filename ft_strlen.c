@@ -6,9 +6,11 @@
 /*   By: vdecleir <vdecleir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 15:05:58 by vdecleir          #+#    #+#             */
-/*   Updated: 2023/11/06 08:26:03 by vdecleir         ###   ########.fr       */
+/*   Updated: 2023/11/07 14:46:27 by vdecleir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_printf.h"
 
 int	ft_strlen(char *str)
 {
