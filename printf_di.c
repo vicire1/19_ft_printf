@@ -6,13 +6,13 @@
 /*   By: vdecleir <vdecleir@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 17:15:29 by vdecleir          #+#    #+#             */
-/*   Updated: 2023/11/09 14:29:19 by vdecleir         ###   ########.fr       */
+/*   Updated: 2023/11/21 12:37:29 by vdecleir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_putnbr(int nb)
+static void	ft_putnbr(int nb)
 {
 	if (nb == -2147483648)
 	{

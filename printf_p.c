@@ -6,13 +6,13 @@
 /*   By: vdecleir <vdecleir@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 16:37:50 by vdecleir          #+#    #+#             */
-/*   Updated: 2023/11/09 14:29:23 by vdecleir         ###   ########.fr       */
+/*   Updated: 2023/11/21 12:55:00 by vdecleir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	print_adress(unsigned long int adress, char *str)
+static void	print_adress(unsigned long int adress, char *str)
 {
 	unsigned long int	base;
 
@@ -28,9 +28,7 @@ void	print_adress(unsigned long int adress, char *str)
 		print_adress(adress % base, str);
 	}
 	if (adress < base)
-	{
 		printf_putchar(str[adress]);
-	}
 }
 
 int	count_adress(void const *adr, char *str)
@@ -39,6 +37,8 @@ int	count_adress(void const *adr, char *str)
 	int					count;
 	int					base;
 
+	if (!str)
+		return (0);
 	adress = (unsigned long int)adr;
 	base = ft_strlen(str);
 	printf_putstr("0x");

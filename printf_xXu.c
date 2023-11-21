@@ -6,13 +6,13 @@
 /*   By: vdecleir <vdecleir@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/27 15:00:30 by vdecleir          #+#    #+#             */
-/*   Updated: 2023/11/09 14:29:33 by vdecleir         ###   ########.fr       */
+/*   Updated: 2023/11/21 12:53:19 by vdecleir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_putnbr_base(unsigned int nb, char *str)
+static void	ft_putnbr_base(unsigned int nb, char *str)
 {
 	unsigned int	base;
 
@@ -41,6 +41,8 @@ int	count_unsigned(unsigned int nb, char *str)
 	len = 0;
 	base = ft_strlen(str);
 	ft_putnbr_base(nb, str);
+	if (!str)
+		return (0);
 	if (nb == 0)
 		return (1);
 	while (nb > 0)
