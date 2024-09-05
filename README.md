@@ -39,12 +39,6 @@ The **ft_printf** project involves recreating the standard `printf()` function f
    make
    ```
 
-1. **Compile the library:**
-
-   ```bash
-   make
-   ```
-
 2. **Clean object files:**
 
    ```bash
